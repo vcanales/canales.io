@@ -36,9 +36,14 @@ function Bio() {
             <p>
               <strong>{author}</strong>' homepage, web developer from Santiago,
               Chile, who's also into photography, cooking, and oxford commas.{" "}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter.
+              You should follow me on{" "}
+              <a href={`https://twitter.com/${social.twitter}`}>Twitter</a>, see
+              some of my street photos on{" "}
+              <a href={`https://instagram.com/${social.instagram}`}>
+                Instagram
               </a>
+              , or read some other stuff on{" "}
+              <a href={`https://dev.to/${social.devto}`}>DEV.to</a>.
             </p>
           </Container>
         )

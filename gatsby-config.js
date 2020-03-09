@@ -7,6 +7,8 @@ module.exports = {
     siteUrl: `https://canales.io`,
     social: {
       twitter: `vforvicente_`,
+      instagram: `callesdestgo`,
+      devto: "vcanales",
     },
   },
   plugins: [
