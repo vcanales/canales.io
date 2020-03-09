@@ -39,11 +39,9 @@ function Bio() {
               You should follow me on{" "}
               <a href={`https://twitter.com/${social.twitter}`}>Twitter</a>, see
               some of my street photos on{" "}
-              <a href={`https://instagram.com/${social.instagram}`}>
-                Instagram
-              </a>
-              , or read some other stuff on{" "}
-              <a href={`https://dev.to/${social.devto}`}>DEV.to</a>.
+              <a href={`https://instagram.com/callesdestgo`}>Instagram</a>, or
+              read some other stuff on{" "}
+              <a href={`https://dev.to/vcanales`}>DEV.to</a>.
             </p>
           </Container>
         )
