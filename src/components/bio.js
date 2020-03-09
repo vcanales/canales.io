@@ -34,11 +34,10 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
-              {` `}
+              <strong>{author}</strong>' homepage, web developer from Santiago,
+              Chile, who's also into photography, cooking, and oxford commas.{" "}
               <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+                You should follow him on Twitter.
               </a>
             </p>
           </Container>
