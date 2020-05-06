@@ -68,7 +68,13 @@ class Layout extends React.Component {
         </div>
         <Footer>
           canales.io © {new Date().getFullYear()} built with{" "}
-          <span title="Coffee">☕️</span> in <span title="Not Texas">🇨🇱</span>
+          <span title="Coffee" role="img" aria-label="Coffee">
+            ☕️
+          </span>{" "}
+          in{" "}
+          <span title="Not Texas" role="img" aria-label="Chilean Flag">
+            🇨🇱
+          </span>
         </Footer>
       </Wrapper>
     )
