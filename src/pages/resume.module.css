@@ -1,0 +1,29 @@
+.container {
+  font-size: 14px;
+}
+.container h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 2rem 0;
+}
+.container p {
+  margin: 1rem 0;
+  padding: 0 0;
+  line-height: 2;
+}
+.container ul li {
+  list-style: none;
+  margin: 12px;
+  text-indent: -12px;
+}
+.container ul > li:before {
+  content: "-";
+  text-indent: -8px;
+  margin-right: 5px;
+}
+.experience article {
+  border-top: 1px solid #ccc;
+}
